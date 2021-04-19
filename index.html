@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script> 
+    $(document).ready(function(){
+      $("#flip").click(function(){
+        $("#panel").slideDown("slow");
+      });
+    });
+    </script>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+
+
+   
+<title>Daniel Gestri </title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png">
+
+    </header>
+
+    <div class="flex-grid">
+      <div class="col sideMenu">
+About Me <br>
+Projects <br>
+
+<div id="flip">Skills</div>
+<div id="panel">
+User Experience Design <br>
+Typography <br>
+Branding 
+</div>
+
+Contact Me
+      </div>
+
+      <div class="col ux card">
+        <img src="images/rabbit.png">
+        <br>
+        User Experience Design 
+        <br>
+        <div class="copy">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </div>
+      </div>
+
+      <div class="col typ card">
+        <img src="images/moonriver.jpg">
+        <br>
+      Typography
+      <br>
+      <div class="copy">
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    </div>
+      </div>
+
+      <div class="col brand card">
+        <img src="images/golden.jpg">
+        <br>
+        Branding
+        <br>
+        <div class="copy">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+      </div>
+      </div>
+
+ </div>
+    
+    <footer>
+      <div class="footerImg">
+        <img src="images/logo.png">
+        </div>
+      <div class="line">
+
+      </div>
+      
+      Copyright Daniel Gestri 2021
+
+    </footer>
+  </body>
+</html>
