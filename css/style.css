@@ -6,6 +6,9 @@ body {
 header {
   background-color: #FFF5EC;
   padding: 15px;
+  font-family: "Dela Gothic One", cursive;
+  font-size: 40pt;
+  color: #e87979;
 }
 header ul {
   float: right;
@@ -109,4 +112,9 @@ footer li {
   height: 50px;
   display: flex;
 
+}
+.divid {
+  background-color: #FFF5EC;
+  height: 2px;
+  margin-top: 400px;
 }

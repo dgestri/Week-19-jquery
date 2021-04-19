@@ -2,6 +2,9 @@
 <html>
   <head>
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script> 
     $(document).ready(function(){
@@ -11,10 +14,22 @@
         $("#panel").slideUp("slow");
       });
     });
-   
 
     </script>
-    
+
+<script> 
+  
+  $(document).ready(function(){
+    $("#title").hover(function(){
+      $(this).css("font-style", "italic");
+    }, function(){
+    $(this).css("font-style", "normal");
+    });
+  });
+ 
+  </script>
+
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
 
@@ -26,7 +41,13 @@
   <body>
     <header>
       <img src="images/logo.png">
+      <br>
+      <div id="title">
+      Daniel Gestri
+    </div>
+      <div class="line">
 
+      </div>
     </header>
 
     <div class="flex-grid">
@@ -42,6 +63,11 @@ Branding
 </div>
 
 Contact Me
+<div class="divid">  
+</div>
+
+
+
       </div>
 
       <div class="col ux card">
