@@ -5,10 +5,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script> 
     $(document).ready(function(){
-      $("#flip").click(function(){
+      $("#flip").hover(function(){
         $("#panel").slideDown("slow");
+      }, function(){
+        $("#panel").slideUp("slow");
       });
     });
+   
+
     </script>
     
     <link rel="preconnect" href="https://fonts.gstatic.com">
